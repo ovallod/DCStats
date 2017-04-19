@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: DCStats
+  host: dcstats
+  disk_quota: 1024M
+  services:
+  - Embeddable Reporting-e8
+  - DCStats-AdvancedMobileAccess
+  - DCStats-imfpush
+  - DCStats-cloudantNoSQLDB
